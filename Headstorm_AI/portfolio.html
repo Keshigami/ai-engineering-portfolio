@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Portfolio | HeadstormAI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-glow"></div>
+
+    <header>
+        <nav class="container">
+            <div class="logo">Headstorm<span class="highlight">AI</span></div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Job Description</a>
+                <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                <a href="../README.md" class="nav-link">Main Portfolio</a>
+            </div>
+            <a href="index.html#apply" class="btn btn-primary">Apply Now</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero portfolio-hero">
+            <div class="container">
+                <span class="badge">Applied Research</span>
+                <h1>Vision <span class="text-gradient">Portfolio</span></h1>
+                <p class="subtitle">A selection of applied computer vision projects demonstrating expertise in document
+                    understanding, segmentation, and real-time detection.</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="container">
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="video-container">
+                            <img src="commercial_analysis.png" alt="Blueprint Layout Analysis" class="project-image">
+                            <div class="overlay-badge">Commercial Scale</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Blueprint Layout Analysis</h3>
+                            <p class="project-desc">Complete pipeline for architectural plan analysis. Classifies views,
+                                extracts dimensions via OCR, and segments rooms/walls. Includes interactive Gradio demo.
+                                Ported with Roboflow integration.
+                            </p>
+                            <div class="tech-stack">
+                                <span>EfficientNet (PyTorch)</span>
+                                <span>EasyOCR</span>
+                                <span>OpenCV</span>
+                                <span>Gradio</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="blueprint_analysis/README.md" class="btn-text">View Case Study →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="video-container">
+                            <img src="menu_intelligence.png" alt="MenuSync AI: Intelligent Digitization"
+                                class="project-image">
+                            <div class="overlay-badge">Enterprise Intelligence</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>MenuSync AI: Intelligent Digitization</h3>
+                            <p class="project-desc">Scalable AI Vision pipeline for digitizing 1,000+ restaurant menus.
+                                Detects layouts, associates prices, and builds competitive intelligence databases.
+                                Enhanced accuracy with spatial alignment.</p>
+                            <div class="tech-stack">
+                                <span>EasyOCR</span>
+                                <span>Batch Engine</span>
+                                <span>Spatial Alignment</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="menu_digitization/README.md" class="btn-text">View Case Study →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="video-container">
+                            <img src="residential_analysis.png" alt="Luxury Residential Spatial Flow"
+                                class="project-image">
+                            <div class="overlay-badge">Spatial Intelligence</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Construction Safety Monitor</h3>
+                            <p class="project-desc">Edge-deployed system for detecting PPE compliance (helmets, vests)
+                                and safety zone violations on active construction sites using YOLOv11.</p>
+                            <div class="tech-stack">
+                                <span>YOLOv11</span>
+                                <span>DeepStream</span>
+                                <span>TensorRT</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="copyright">
+                &copy; 2025 HeadstormAI. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
