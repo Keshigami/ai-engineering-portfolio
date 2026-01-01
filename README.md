@@ -142,5 +142,5 @@ python demo_app.py
 
 ---
 <div align="center">
-  <i>Generated with ❤️ by Antigravity AI agent.</i>
+  <i>Generated with ❤️ by Maxiumus</i>
 </div>
