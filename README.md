@@ -133,10 +133,10 @@ python demo_app.py
 <div align="center">
 
 **Maximus Friedrich Baluyot**  
-*AI Engineering Student @ Caltech CTME*
+*IT Consultant for AI Systems*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maximusbaluyot@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maximusbaluyot/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maximus@regaph.com)
 
 </div>
 
