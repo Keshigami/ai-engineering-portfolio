@@ -59,6 +59,11 @@ A professional showcase of scalable AI solutions, from real-time computer vision
 - **Results:** 95% reduction in manual data entry; Real-time detection of structural elements (doors/windows/fire safety).
 - **Portfolio Page:** [View Live Presentation](Headstorm_AI/portfolio.html)
 
+<p align="center">
+  <img src="assets/images/menu_intelligence.png" width="48%" alt="Menu Intelligence">
+  <img src="assets/images/blueprint_demo.png" width="48%" alt="Blueprint Analysis">
+</p>
+
 ### 2. MLOps & Production APIs
 
 - **Churn Predictor:** Feature-engineered Random Forest model deployed with feature importance transparency.
@@ -75,6 +80,8 @@ Our blueprint analyzer uses a hierarchical approach to maximize compute efficien
 1. **Classifier (EfficientNet-B0)**: Determines the document type (Floor Plan vs. Elevation) to route to specific detection sub-models.
 2. **Object Detection (Roboflow YOLO)**: Identifies discrete structural elements with bounding box confidence.
 3. **Spatial Segmentation (OpenCV)**: Analyzes wall connectivity to calculate room areas algorithmically.
+
+![Blueprint Analysis Pipeline](assets/images/blueprint_demo.png)
 
 ```python
 # Core Spatial Alignment Logic (MenuSync AI)
@@ -119,6 +126,8 @@ npm run dev
 ```
 
 ### 🧠 Vision Demo (Blueprint Analysis)
+
+![Navigation Demo](assets/images/navigation_demo.webp)
 
 ```bash
 cd Headstorm_AI/blueprint_analysis
